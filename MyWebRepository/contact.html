@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gyan Prakash- Web Developer, Programmer, Data Engineer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+  <div class="BgContact">
+    <!-- <div class="container"> -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="intro.html">My Intro</a></li>
+          <li><a href="blog.html">Blog</a></li>
+
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="main">
+      <span style="font-size:30px;cursor:pointer; color:dodgerblue" onclick="openNav()">&#9776;</span>
+    </div>
+    <div class="contactform">
+      <h1 class="text-center">Contact me for general Enquries</h1>
+      <form>
+        <div class="mb-6">
+
+          <label for="clientname" class="form-label">Name <span class="required">*</span></label>
+          <input type="email" class="form-control" id="clientname" aria-describedby="emailHelp">
+
+        </div>
+
+        <div class="mb-6">
+          <label for="clientemail" class="form-label">Email address <span class="required">*</span></label>
+          <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+        </div>
+
+        <div class="mb-6">
+          <label for="clientphone" class="form-label">Phone <span class="required">*</span></label>
+          <input type="phone" class="form-control" id="clientphone">
+        </div>
+
+        <div class="mb-6">
+          <label for="clientEnquiry" class="form-label">Enquiry</label>
+          <input type="Enquiry" class="form-control" id="clientEnquiry">
+        </div>
+
+        <div class="mb-6" id="form-check">
+          <input type="checkbox" class="form-check-input" id="isclient">
+          <label class="form-check-label" for="isclient" style="margin-left: 10px">I want you to work on a project
+            with me</label>
+        </div>
+        <button type="submit" class="btn btn-sm">Submit</button>
+      </form>
+      <br>
+      <footer class="bg-light text-center text-white">
+
+        <div class="container2 p-4 pb-0">
+
+          <section class="mb-4" id="Social-Icon">
+            <a class="text-white btn-floating m-1"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)"
+                src="ProgIcon/linkedin.png" alt="linkedin.com/in/g-prakash-y-77a839204" style="height: 28px;"><i
+                class="fab fa-linkedin-in"></i></a>
+
+            <a class="text-white btn-floating m-1"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)"
+                src="ProgIcon/github.png" alt="" style="height: 28px;"><i class="fab fa-github"></i></a>
+
+            <a class="text-white btn-floating m-1"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)"
+                src="ProgIcon/instagram.png" alt="" style="height: 28px;"><i class="fab fa-instagram"></i></a>
+
+           
+          </section>
+        </div>
+        <div class="text-center p-3">
+          © 2023 Copyright:
+          <a class="text-white" href="">@gyanDeveloper</a>
+        </div>
+      </footer>
+    </div>
+    <!-- </div> -->
+  </div>
+</body>
+
+</html>

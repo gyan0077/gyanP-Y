@@ -1,0 +1,437 @@
+.BgIntro {
+    background-image: url('./ProgIcon/Bgwhite.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.BgHome {
+    background-image: url('./ProgIcon/bhRoad.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.BgBlog {
+    background-image: url('./ProgIcon/Bgwhite.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.BgContact {
+    background-image: url('./ProgIcon/blue2.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container2 a {
+    margin-left: 10px;
+    padding-left: 75px;
+}
+
+
+#Social-Icon {
+    align-items: center;
+    display: flex;
+    font-family: cursive;
+    height: 28px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    margin-left: -85px;
+}
+
+
+#btn1 {
+    margin-left: -5px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+#main {
+    margin-right: 59px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* .container {
+    display: flex;
+} */
+
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    /* padding-left: 275px;
+     */
+
+}
+
+.project h2 {
+    font-family: 'Source code Pro', monospace;
+}
+
+.sidebar {
+    /*background-color: aqua;*/
+    background-color: rgb(223, 218, 218);
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+    height: 40px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.infocontainer {
+    /* background-color:rgb(202, 9, 128);*/
+
+    height: 58vh;
+    width: 75vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Devpic img {
+    height: 20vh;
+    border-radius: 100%;
+}
+
+.Devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 55px;
+
+}
+
+.hello {
+    font-size: 32px;
+    margin-top: 166px;
+    color: aquamarine;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    color: aqua;
+}
+
+.about {
+    font-size: 30px;
+    color: aquamarine;
+}
+
+.buttons {
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    /* font-size: 2em; */
+    margin: 3px 3px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.contactform {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 34px;
+    padding-top: 60px;
+
+}
+
+.contactform h1 {
+    font-family: 'Source code Pro', monospace;
+    padding: 15px 0;
+
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: rgb(184, 17, 17);
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+
+}
+
+.btn-sm {
+
+    /* font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0; */
+    font-size: 18px;
+    padding: 6px 20px;
+    margin: 16px 4px;
+}
+
+.h1 {
+    margin: 20px;
+    font-family: 'fora sons', sans-serif;
+}
+
+.blogItem {
+    margin: 20px;
+    font-family: 'fora sons', sans-serif;
+}
+
+
+.blogcontainer {
+    padding-top: 25px;
+    /* text-align: center; */
+
+}
+
+.blogcontainer h1 {
+    /* padding-top: 25px;
+     */
+    text-align: center;
+
+}
+
+
+.p {
+    font-family: 'source code pro', monospace;
+
+}
+
+
+.intro {
+    padding: 12px;
+
+}
+
+.skillContainer {
+    padding: 5px;
+    position: fixed;
+}
+
+.skills {
+    width: 265px;
+    height: 8px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.skillItem {
+    align-items: center;
+    display: flex;
+    font-family: cursive;
+}
+
+.skillItem img {
+    align-items: center;
+    display: flex;
+    font-family: cursive;
+    height: 28px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+
+}
+
+.PercentageCpp {
+    width: 185px;
+    height: 8px;
+    background-color: rgb(255, 94, 0);
+    border-radius: 3px;
+
+}
+
+.PercentagePython {
+    width: 200px;
+    height: 8px;
+    background-color: rgb(255, 123, 0);
+    border-radius: 3px;
+
+}
+
+.PercentageSQl {
+    width: 65px;
+    height: 8px;
+    background-color: rgb(255, 174, 0);
+    border-radius: 3px;
+
+}
+
+.PercentageDBMS {
+    width: 100px;
+    height: 8px;
+    background-color: rgb(145, 255, 0);
+    border-radius: 3px;
+
+}
+
+.PercentageHTML {
+    width: 265px;
+    height: 8px;
+    background-color: rgb(255, 145, 0);
+    border-radius: 3px;
+
+}
+
+.PercentageCSS {
+    width: 255px;
+    height: 8px;
+    background-color: rgb(255, 153, 0);
+    border-radius: 3px;
+
+}
+
+.PercentageJScript {
+    width: 190px;
+    height: 8px;
+    background-color: rgb(255, 230, 0);
+    border-radius: 3px;
+
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+
+.cross {
+    margin-left: 138px;
+}
+
+@media (max-width: 1115px) {
+    * {
+        /* background-color: rgb(230, 146, 146); */
+
+    }
+
+    .Devpic {
+        display: none;
+    }
+
+    .buttons {
+        font-size: 5px;
+    }
+}
+
+.social mb-6 {
+    height: 33px;
+}
+
+
+
+
+
+/*
+
+Social Media Icons CSS
+
+*/
